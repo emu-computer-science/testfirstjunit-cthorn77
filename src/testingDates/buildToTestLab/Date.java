@@ -252,6 +252,11 @@ public class Date
             return "Error"; //to keep the compiler happy
         }
     }
+    
+    Date addOneDay() {
+    	System.out.println("Date.addOneDay() is not yet implemented.");
+    }
+    
     public static void main(String[] args) {
         System.out.println("Main in Date.");
         Date tester = new Date();
